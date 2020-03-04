@@ -4,7 +4,7 @@ on:
       - master
 
 env:
-  AZURE_WEBAPP_NAME: <nazwa-aplikacji>
+  AZURE_WEBAPP_NAME: appka1
   AZURE_WEBAPP_PACKAGE_PATH: '.'
   NODE_VERSION: '10.15'
 

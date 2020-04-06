@@ -17,7 +17,7 @@ const config = require('./config')
 const routes = require('./routes')
 
 const port = process.env.PORT || config.port
-
+require('./store').init()
 // error handler
 onerror(app)
 
